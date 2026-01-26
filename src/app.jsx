@@ -1,6 +1,6 @@
 export default function App() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-slate-50 to-slate-200 text-slate-800">
+    <div className="min-h-screen bg-linear-to-b from-slate-50 to-slate-200 text-slate-800">
       {/* SITE HEADER */}
       <header className="text-center py-16 bg-white shadow-sm">
         <h1 className="text-4xl font-extrabold tracking-tight text-slate-900">
