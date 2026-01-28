@@ -48,9 +48,9 @@ export default function App() {
           {/* PROJECT CARD 1 */}
           <article className="project-card bg-white rounded-xl shadow-md p-6 hover:shadow-xl transition-shadow">
             <img
-              src="YOUR-IMAGE"
+              src="/images/budget-tracker-screenshot.png"
               alt="Budget Tracker screenshot"
-              className="project-image w-full h-48 object-cover rounded-lg mb-4"
+              className="project-image w-full object-contain rounded-lg mb-4"
             />
 
             <header>
@@ -75,14 +75,14 @@ export default function App() {
 
             <footer className="links mt-6 flex gap-4">
               <a
-                href="LIVE-DEMO"
+                href="https://ae-budget-tracker.netlify.app/"
                 target="_blank"
                 className="px-4 py-2 bg-indigo-600 text-white rounded hover:bg-indigo-700 transition"
               >
                 Live Demo
               </a>
               <a
-                href="GITHUB-REPO"
+                href="https://github.com/hearyoume/277-final-project-hearyoume.git"
                 target="_blank"
                 className="px-4 py-2 bg-slate-700 text-white rounded hover:bg-slate-800 transition"
               >
@@ -96,7 +96,7 @@ export default function App() {
             <img
               src="YOUR-IMAGE"
               alt="Weather App screenshot"
-              className="project-image w-full h-48 object-cover rounded-lg mb-4"
+              className="project-image w-full object-contain rounded-lg mb-4"
             />
 
             <header>
@@ -135,7 +135,7 @@ export default function App() {
             <img
               src="YOUR-IMAGE"
               alt="Java Task Manager screenshot"
-              className="project-image w-full h-48 object-cover rounded-lg mb-4"
+              className="project-image w-full object-contain rounded-lg mb-4"
             />
 
             <header>
