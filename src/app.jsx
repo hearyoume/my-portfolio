@@ -94,7 +94,7 @@ export default function App() {
           {/* PROJECT CARD 2 */}
           <article className="project-card bg-white rounded-xl shadow-md p-6 hover:shadow-xl transition-shadow">
             <img
-              src="YOUR-IMAGE"
+              src="/images/weather-app-screenshot.png"
               alt="Weather App screenshot"
               className="project-image w-full object-contain rounded-lg mb-4"
             />
@@ -121,7 +121,7 @@ export default function App() {
 
             <footer className="links mt-6">
               <a
-                href="GITHUB-REPO"
+                href="https://github.com/hearyoume/WeatherApp.git"
                 target="_blank"
                 className="px-4 py-2 bg-slate-700 text-white rounded hover:bg-slate-800 transition"
               >
@@ -133,7 +133,7 @@ export default function App() {
           {/* PROJECT CARD 3 */}
           <article className="project-card bg-white rounded-xl shadow-md p-6 hover:shadow-xl transition-shadow">
             <img
-              src="YOUR-IMAGE"
+              src="/images/task-manager-screenshot.jpg"
               alt="Java Task Manager screenshot"
               className="project-image w-full object-contain rounded-lg mb-4"
             />
