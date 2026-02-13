@@ -4,7 +4,7 @@ export default function App() {
       {/* SITE HEADER */}
       <header className="text-center py-16 bg-white shadow-sm">
         <h1 className="text-4xl font-extrabold tracking-tight text-slate-900">
-          My Developer Portfolio
+          Amanda Ellis - Developer Portfolio
         </h1>
         <p className="mt-3 text-lg text-slate-600">
           I've exchanged my dental tools for dev tools.
@@ -50,7 +50,7 @@ export default function App() {
             <img
               src="/images/budget-tracker-screenshot.png"
               alt="Budget Tracker screenshot"
-              className="project-image w-full object-contain rounded-lg mb-4"
+              className="project-image w-full h-80 object-cover object-top rounded-lg mb-4"
             />
 
             <header>
@@ -96,7 +96,7 @@ export default function App() {
             <img
               src="/images/weather-app-screenshot.png"
               alt="Weather App screenshot"
-              className="project-image w-full object-contain rounded-lg mb-4"
+              className="project-image w-full h-80 object-cover object-top rounded-lg mb-4"
             />
 
             <header>
@@ -133,24 +133,27 @@ export default function App() {
           {/* PROJECT CARD 3 */}
           <article className="project-card bg-white rounded-xl shadow-md p-6 hover:shadow-xl transition-shadow">
             <img
-              src="/images/task-manager-screenshot.jpg"
-              alt="Java Task Manager screenshot"
-              className="project-image w-full object-contain rounded-lg mb-4"
+              src="/images/invoice-screenshot.png"
+              alt="Pet Boutique Invoice screenshot for Java project"
+              className="project-image w-full h-80 object-cover object-top rounded-lg mb-4"
             />
 
             <header>
               <h3 className="text-2xl font-semibold text-slate-900">
-                Java Task Manager
+                Java Pet Boutique Invoice Generator
               </h3>
               <p className="tagline text-slate-500">
-                A simple console-based task organizer.
+                A Java console application for generating formatted invoices.
               </p>
             </header>
 
             <section className="mt-4 space-y-2">
               <p>
-                A Java task management system built in Eclipse IDE. Demonstrates
-                OOP principles, collections, and clean project structure.
+                A Java console application that generates a formatted invoice
+                for a pet grooming boutique. Built using object‑oriented
+                programming with separate classes for Customer, Pet, and
+                Invoice. Includes input validation, error handling, and
+                formatted output.
               </p>
               <p>
                 <strong>Tech:</strong> Java, Eclipse IDE
@@ -159,7 +162,7 @@ export default function App() {
 
             <footer className="links mt-6">
               <a
-                href="GITHUB-REPO"
+                href="https://github.com/hearyoume/pet-boutique-java.git"
                 target="_blank"
                 className="px-4 py-2 bg-slate-700 text-white rounded hover:bg-slate-800 transition"
               >
