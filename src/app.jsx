@@ -1,6 +1,6 @@
 export default function App() {
   return (
-    <div className="min-h-screen bg-linear-to-b from-slate-50 to-slate-200 text-slate-800">
+    <div className="min-h-screen bg-gradient-to-b from-slate-50 to-slate-200 text-slate-800">
       {/* SITE HEADER */}
       <header className="text-center py-16 bg-white shadow-sm">
         <h1 className="text-4xl font-extrabold tracking-tight text-slate-900">
@@ -175,6 +175,26 @@ export default function App() {
 
       {/* SITE FOOTER */}
       <footer className="text-center py-8 text-slate-600">
+        <p>
+          Email me at:{" "}
+          <a
+            href="mailto:stackoverflowingwithbooks@gmail.com"
+            className="text-indigo-600 hover:underline"
+          >
+            stackoverflowingwithbooks@gmail.com
+          </a>
+        </p>
+        <p>
+          LinkedIn:{" "}
+          <a
+            href="https://www.linkedin.com/in/amanda-d-ellis/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-indigo-600 hover:underline"
+          >
+            linkedin.com/in/amanda-d-ellis
+          </a>
+        </p>
         <p>&copy; 2026 Amanda Ellis — Always learning, always building.</p>
       </footer>
     </div>
