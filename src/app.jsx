@@ -1,3 +1,7 @@
+import budgetScreenshot from "/images/budget-tracker-screenshot.png";
+import invoiceScreenshot from "/images/invoice-screenshot.png";
+import weatherScreenshot from "/images/weather-app-screenshot.png";
+
 export default function App() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-slate-200 text-slate-800">
@@ -48,7 +52,7 @@ export default function App() {
           {/* PROJECT CARD 1 */}
           <article className="project-card bg-white rounded-xl shadow-md p-6 hover:shadow-xl transition-shadow">
             <img
-              src="/images/budget-tracker-screenshot.png"
+              src={budgetScreenshot}
               alt="Budget Tracker screenshot"
               className="project-image w-full h-80 object-cover object-top rounded-lg mb-4"
             />
@@ -94,7 +98,7 @@ export default function App() {
           {/* PROJECT CARD 2 */}
           <article className="project-card bg-white rounded-xl shadow-md p-6 hover:shadow-xl transition-shadow">
             <img
-              src="/images/weather-app-screenshot.png"
+              src={weatherScreenshot}
               alt="Weather App screenshot"
               className="project-image w-full h-80 object-cover object-top rounded-lg mb-4"
             />
@@ -133,7 +137,7 @@ export default function App() {
           {/* PROJECT CARD 3 */}
           <article className="project-card bg-white rounded-xl shadow-md p-6 hover:shadow-xl transition-shadow">
             <img
-              src="/images/invoice-screenshot.png"
+              src={invoiceScreenshot}
               alt="Pet Boutique Invoice screenshot for Java project"
               className="project-image w-full h-80 object-cover object-top rounded-lg mb-4"
             />
