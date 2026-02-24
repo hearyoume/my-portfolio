@@ -48,7 +48,7 @@ export default function App() {
           {/* PROJECT CARD 1 */}
           <article className="project-card bg-white rounded-xl shadow-md p-6 hover:shadow-xl transition-shadow">
             <img
-              src={`${import.meta.env.BASE_URL}images/budget-tracker-screenshot.png`}
+              src="/images/budget-tracker-screenshot.png"
               alt="Budget Tracker screenshot"
               className="project-image w-full h-80 object-cover object-top rounded-lg mb-4"
             />
@@ -94,7 +94,7 @@ export default function App() {
           {/* PROJECT CARD 2 */}
           <article className="project-card bg-white rounded-xl shadow-md p-6 hover:shadow-xl transition-shadow">
             <img
-              src={`${import.meta.env.BASE_URL}images/weather-app-screenshot.png`}
+              src="/images/weather-app-screenshot.png"
               alt="Weather App screenshot"
               className="project-image w-full h-80 object-cover object-top rounded-lg mb-4"
             />
@@ -133,7 +133,7 @@ export default function App() {
           {/* PROJECT CARD 3 */}
           <article className="project-card bg-white rounded-xl shadow-md p-6 hover:shadow-xl transition-shadow">
             <img
-              src={`${import.meta.env.BASE_URL}images/invoice-screenshot.png`}
+              src="/images/invoice-screenshot.png"
               alt="Pet Boutique Invoice screenshot for Java project"
               className="project-image w-full h-80 object-cover object-top rounded-lg mb-4"
             />
