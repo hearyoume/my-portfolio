@@ -1,1 +1,12 @@
 @import "tailwindcss";
+
+/* High-contrast fallback for browsers that may not support Tailwind v4 color syntax. */
+.page-shell {
+  background: linear-gradient(to bottom, #edf4ff 0%, #cedcf4 100%);
+}
+
+.project-surface {
+  background-color: #ffffff;
+  border: 1px solid #b7c8e6;
+  box-shadow: 0 12px 28px rgba(30, 41, 59, 0.12);
+}
