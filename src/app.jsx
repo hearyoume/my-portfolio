@@ -182,10 +182,10 @@ export default function App() {
         <p>
           Email me at:{" "}
           <a
-            href="mailto:stackoverflowingwithbooks@gmail.com"
+            href="mailto:adelliscodes@gmail.com"
             className="text-indigo-600 hover:underline"
           >
-            stackoverflowingwithbooks@gmail.com
+            adelliscodes@gmail.com
           </a>
         </p>
         <p>
