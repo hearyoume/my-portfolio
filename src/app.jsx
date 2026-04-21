@@ -24,7 +24,7 @@ export default function App() {
           </h2>
 
           <p className="leading-relaxed">
-            After spending 17 years as a dental assistant, I decided it was time
+            After spending 18 years as a dental assistant, I decided it was time
             for a new adventure. I recently earned my Web Development
             Certificate from Southwestern Illinois College, and I'm excited to
             keep learning, building, and leveling up.
