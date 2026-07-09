@@ -26,14 +26,22 @@ export default function App() {
           <p className="leading-relaxed">
             After spending 18 years as a dental assistant, I decided it was time
             for a new adventure. I recently earned my Web Development
-            Certificate from Southwestern Illinois College, and I'm excited to
-            keep learning, building, and leveling up.
+            Certificate from Southwestern Illinois College. My core stack
+            includes HTML, CSS, JavaScript, React, and Java, with additional
+            exposure to C#, PHP, and SQL.
           </p>
 
           <p className="leading-relaxed">
-            I'm a self-proclaimed word nerd, a collector of fun facts, and a
-            shameless petter of all the dogs. If there's a pup within a 20-foot
-            radius, I'm already on my way to say hello.
+            I bring something most junior developers don't: nearly two decades
+            of working directly with patients and providers under pressure,
+            communicating clearly, and solving problems on the fly. That's the
+            kind of teammate I am in a dev environment too.
+          </p>
+
+          <p className="leading-relaxed">
+            I'm actively seeking my first professional developer role in the St.
+            Louis area. I'm a fast learner, a self-proclaimed word nerd, and I
+            will absolutely stop to pet your office dog.
           </p>
 
           <p className="leading-relaxed">
