@@ -12,7 +12,7 @@ export default function App() {
           Amanda Ellis - Developer Portfolio
         </h1>
         <p className="mt-3 text-lg text-slate-600">
-          I've exchanged my dental tools for dev tools.
+          I've exchanged my dental tools 🪥 for dev tools 👩‍💻.
         </p>
       </header>
 
@@ -42,7 +42,7 @@ export default function App() {
           <p className="leading-relaxed">
             I'm actively seeking my first professional developer role in the St.
             Louis area. I'm a fast learner, a self-proclaimed word nerd, and I
-            will absolutely stop to pet your office dog.
+            will absolutely stop to pet your office dog 🐕.
           </p>
 
           <p className="leading-relaxed">
@@ -50,6 +50,18 @@ export default function App() {
             along my journey into tech. Thanks for stopping by. I'm glad you're
             here.
           </p>
+
+          <p className="leading-relaxed font-medium">
+            If you're hiring, collaborating, or just want to talk shop — I'd
+            love to hear from you. 😊
+          </p>
+          <a
+            href="mailto:adelliscodes@gmail.com"
+            className="inline-flex items-center gap-2 text-indigo-600 font-semibold text-lg hover:text-indigo-800 hover:underline transition"
+          >
+            Send me an email
+            <span aria-hidden="true">→</span>
+          </a>
         </section>
 
         {/* PROJECTS SECTION */}
