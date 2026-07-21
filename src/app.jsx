@@ -1,5 +1,6 @@
 import budgetScreenshot from "/images/budget-tracker-screenshot.png";
 import invoiceScreenshot from "/images/invoice-screenshot.png";
+import servicesPage from "/images/services-page.png";
 import weatherScreenshot from "/images/weather-app-screenshot.png";
 
 export default function App() {
@@ -60,6 +61,53 @@ export default function App() {
           {/* PROJECT CARD 1 */}
           <article className="project-card project-surface bg-white rounded-xl shadow-md p-6 hover:shadow-xl transition-shadow">
             <img
+              src={servicesPage}
+              alt="Services Screenshot Page"
+              className="project-image w-full h-80 object-cover object-top rounded-lg mb-4"
+            />
+
+            <header>
+              <h3 className="text-2xl font-semibold text-slate-900">
+                Ellis Family Dentistry
+              </h3>
+              <p className="tagline text-slate-500">
+                A mock dental office website.
+              </p>
+            </header>
+
+            <section className="mt-4 space-y-2">
+              <p>
+                A warm, modern dental practice website with multi-page
+                navigation, a services showcase, a team page, and a contact form
+                — built entirely as a frontend React app.
+              </p>
+              <p>
+                <strong>Tech:</strong> JavaScript, React, React-Bootstrap, React
+                Router, Custom CSS, Netlify
+              </p>
+            </section>
+
+            <footer className="links mt-6 flex gap-4">
+              <a
+                href="https://ellisfamilydentistry.netlify.app/"
+                target="_blank"
+                className="px-4 py-2 bg-indigo-600 text-white rounded hover:bg-indigo-700 transition"
+              >
+                Live Demo
+              </a>
+              <a
+                href="https://github.com/hearyoume/dental-office.git"
+                target="_blank"
+                className="px-4 py-2 bg-slate-700 text-white rounded hover:bg-slate-800 transition"
+              >
+                GitHub Repo
+              </a>
+            </footer>
+          </article>
+
+          {/* PROJECT CARD 2 */}
+          <article className="project-card project-surface bg-white rounded-xl shadow-md p-6 hover:shadow-xl transition-shadow">
+            <img
               src={budgetScreenshot}
               alt="Budget Tracker screenshot"
               className="project-image w-full h-80 object-cover object-top rounded-lg mb-4"
@@ -103,7 +151,7 @@ export default function App() {
             </footer>
           </article>
 
-          {/* PROJECT CARD 2 */}
+          {/* PROJECT CARD 3 */}
           <article className="project-card project-surface bg-white rounded-xl shadow-md p-6 hover:shadow-xl transition-shadow">
             <img
               src={weatherScreenshot}
@@ -142,7 +190,7 @@ export default function App() {
             </footer>
           </article>
 
-          {/* PROJECT CARD 3 */}
+          {/* PROJECT CARD 4 */}
           <article className="project-card project-surface bg-white rounded-xl shadow-md p-6 hover:shadow-xl transition-shadow">
             <img
               src={invoiceScreenshot}
